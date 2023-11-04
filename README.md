@@ -1,28 +1,31 @@
-# Multiple server with infinite capacity - (M/M/c):(oo/FIFO)
-## Aim :
+# EX-05 Multiple Server with Infinite Capacity-(M/M/c):(oo/FIFO)
+### Aim :
 To find (a) average number of materials in the system (b) average number of materials in the conveyor (c) waiting time of each material in the system (d) waiting time of each material in the conveyor, if the arrival  of materials follow poisson process with the mean interval time 10 seconds, serivice time of two lathe machine follow exponential distribution with mean serice time 1 second and average service time of robot is 7seconds.
+### Software required :
+Visual components and Python.
+### Theory:
+Queuing are the most frequently encountered problems in everyday life. For example, queue at a cafeteria, library, bank, etc. Common to all of these cases are the arrivals of objects requiring service and the attendant delays when the service mechanism is busy. Waiting lines cannot be eliminated completely, but suitable techniques can be used to reduce the waiting time of an object in the system. A long waiting line may result in loss of customers to an organization. Waiting time can be reduced by providing additional service facilities, but it may result in an increase in the idle time of the service mechanism.<br>  
+     <img src="https://user-images.githubusercontent.com/103921593/203238035-1c8109bc-cbf2-4c77-baea-c5b682a752ef.png"> 
+<table>
+  <tr height=40%>
+    <td width=50%>
+     
+  ### Procedure:  
+  <img src="https://user-images.githubusercontent.com/103921593/203238265-176740b0-eae2-4772-90be-5449869ac9b0.png">  
+    </td>
+    <td>
+      
+  ### Experiment:    
+  <img src="https://github.com/ROHITJAIND/EX-05-Mutiple-Capacity-with-Infinite-Capacity/assets/118707073/34666112-8674-4e80-b62d-50ee0a454a36">
+    </td>
+  </tr>
+</table>
 
-## Software required :
-Visual components and Python
-
-## Theory:
-Queuing are the most frequently encountered problems in everyday life. For example, queue at a cafeteria, library, bank, etc. Common to all of these cases are the arrivals of objects requiring service and the attendant delays when the service mechanism is busy. Waiting lines cannot be eliminated completely, but suitable techniques can be used to reduce the waiting time of an object in the system. A long waiting line may result in loss of customers to an organization. Waiting time can be reduced by providing additional service facilities, but it may result in an increase in the idle time of the service mechanism.
-
-![image](https://user-images.githubusercontent.com/103921593/203238035-1c8109bc-cbf2-4c77-baea-c5b682a752ef.png)
-
-## Procedure :
-
-![image](https://user-images.githubusercontent.com/103921593/203238265-176740b0-eae2-4772-90be-5449869ac9b0.png)
-
-## Experiment:
-
-
-## Program:
-
+### Program :
 ```
-Name:shabreena vincent
-Register no:212222230141
-
+Developed By: ROHIT JAIN D   Register No: 212222230120
+```
+```Python
 import math
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
@@ -56,8 +59,15 @@ else:
 print("--------------------------------------------------------------")
 ```
 
-## Output :
-![](experi5.png)
+### Output :
 
-## Result : 
+
+
+
+![Screenshot 2023-11-04 110153](https://github.com/shabreenavincent/Muttiple-capacity-with-infinite-capacity/assets/119475721/c4520237-0bea-49c4-ab4f-b2aab86ced4e)
+
+
+
+
+### Result : 
 Thus the average number of materials in the system and conveyor, waiting time of each material in the system and conveyor is found successfully.
